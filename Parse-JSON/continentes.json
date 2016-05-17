@@ -1,0 +1,34 @@
+{
+    "continentes": {
+        "continente": [
+                       {
+                       "id": "AMN",
+                       "text": "America del Norte"
+                       },
+                       {
+                       "id": "AMS",
+                       "text": "America del Sur"
+                       },
+                       {
+                       "id": "AMC",
+                       "text": "America Central"
+                       },
+                       {
+                       "id": "ASI",
+                       "text": "Asia"
+                       },
+                       {
+                       "id": "EUR",
+                       "text": "Europa"
+                       },
+                       {
+                       "id": "AFR",
+                       "text": "Africa"
+                       },
+                       {
+                       "id": "OCE",
+                       "text": "Oceania"
+                       }
+                       ]
+    }
+}

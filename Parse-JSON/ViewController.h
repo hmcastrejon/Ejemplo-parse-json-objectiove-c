@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, retain) NSMutableArray *arregloContinentes;
+@property (nonatomic, retain) IBOutlet UITableView *mainTable;
 
 @end

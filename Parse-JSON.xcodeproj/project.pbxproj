@@ -18,6 +18,11 @@
 		82707BC51719A8E00082CF34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82707BC41719A8E00082CF34 /* Default-568h@2x.png */; };
 		82707BC81719A8E00082CF34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82707BC71719A8E00082CF34 /* ViewController.m */; };
 		82707BCB1719A8E00082CF34 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82707BC91719A8E00082CF34 /* ViewController.xib */; };
+		82707BD31719A8F70082CF34 /* continentes.json in Resources */ = {isa = PBXBuildFile; fileRef = 82707BD21719A8F70082CF34 /* continentes.json */; };
+		82707BDB1719AA2E0082CF34 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 82707BD51719AA2E0082CF34 /* CHANGELOG.md */; };
+		82707BDC1719AA2E0082CF34 /* Continente.m in Sources */ = {isa = PBXBuildFile; fileRef = 82707BD71719AA2E0082CF34 /* Continente.m */; };
+		82707BDD1719AA2E0082CF34 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 82707BD91719AA2E0082CF34 /* JSONKit.m */; };
+		82707BDE1719AA2E0082CF34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 82707BDA1719AA2E0082CF34 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,13 @@
 		82707BC61719A8E00082CF34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		82707BC71719A8E00082CF34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		82707BCA1719A8E00082CF34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		82707BD21719A8F70082CF34 /* continentes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = continentes.json; sourceTree = "<group>"; };
+		82707BD51719AA2E0082CF34 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		82707BD61719AA2E0082CF34 /* Continente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Continente.h; sourceTree = "<group>"; };
+		82707BD71719AA2E0082CF34 /* Continente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Continente.m; sourceTree = "<group>"; };
+		82707BD81719AA2E0082CF34 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		82707BD91719AA2E0082CF34 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		82707BDA1719AA2E0082CF34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,8 @@
 		82707BB41719A8E00082CF34 /* Parse-JSON */ = {
 			isa = PBXGroup;
 			children = (
+				82707BD41719AA2E0082CF34 /* JSON */,
+				82707BD11719A8E90082CF34 /* RESOURCE */,
 				82707BBD1719A8E00082CF34 /* AppDelegate.h */,
 				82707BBE1719A8E00082CF34 /* AppDelegate.m */,
 				82707BC61719A8E00082CF34 /* ViewController.h */,
@@ -105,6 +119,27 @@
 				82707BC41719A8E00082CF34 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82707BD11719A8E90082CF34 /* RESOURCE */ = {
+			isa = PBXGroup;
+			children = (
+				82707BD21719A8F70082CF34 /* continentes.json */,
+			);
+			name = RESOURCE;
+			sourceTree = "<group>";
+		};
+		82707BD41719AA2E0082CF34 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				82707BD51719AA2E0082CF34 /* CHANGELOG.md */,
+				82707BD61719AA2E0082CF34 /* Continente.h */,
+				82707BD71719AA2E0082CF34 /* Continente.m */,
+				82707BD81719AA2E0082CF34 /* JSONKit.h */,
+				82707BD91719AA2E0082CF34 /* JSONKit.m */,
+				82707BDA1719AA2E0082CF34 /* README.md */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +198,9 @@
 				82707BC31719A8E00082CF34 /* Default@2x.png in Resources */,
 				82707BC51719A8E00082CF34 /* Default-568h@2x.png in Resources */,
 				82707BCB1719A8E00082CF34 /* ViewController.xib in Resources */,
+				82707BD31719A8F70082CF34 /* continentes.json in Resources */,
+				82707BDB1719AA2E0082CF34 /* CHANGELOG.md in Resources */,
+				82707BDE1719AA2E0082CF34 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +214,8 @@
 				82707BBB1719A8E00082CF34 /* main.m in Sources */,
 				82707BBF1719A8E00082CF34 /* AppDelegate.m in Sources */,
 				82707BC81719A8E00082CF34 /* ViewController.m in Sources */,
+				82707BDC1719AA2E0082CF34 /* Continente.m in Sources */,
+				82707BDD1719AA2E0082CF34 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
